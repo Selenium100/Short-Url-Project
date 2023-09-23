@@ -5,5 +5,5 @@ async function connectMongoDB(url){
 }
 
 module.exports = {
-    connectMongoDB
+    connectMongoDB,
 }
