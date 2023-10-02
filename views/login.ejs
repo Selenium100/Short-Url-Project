@@ -1,34 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login Page</title>
 
     <style>
-        body {
-          font-family: Verdana, Geneva, Tahoma, sans-serif;
-        }
-        
-      </style>
-</head>
-<body>
-
-    <form action="/user/login" method="post">
+      body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: aqua;
+      }
+      #passlabel{
+        margin-right: 35px;
+      }
       
-        <h3>Login Page</h3>
+    </style>
+  </head>
+  <body>
+    <form action="/user/login" method="post">
+      <h3>Login Page</h3>
 
+      <div>
         <label>Please Enter your Email address</label>
-        <input type="text" name="email" id="email">
+        <input type="text" name="email" id="email" />
+      </div>
 
-        <label>Please Enter your password</label>
-        <input type="text" name="password" id="password">
-
-        <button type="submit">Login</button>
-
-
-
+      <div>
+        <label id="passlabel">Please Enter your password</label>
+        <input type="text" name="password" id="password" />
+      </div>
+<div>
+  <button type="submit">Login</button>
+</div>
+      
     </form>
-    
-</body>
+  </body>
 </html>
