@@ -14,6 +14,10 @@ staticRoute.get("/signup", (req, res) => {
   return res.render("signup");
 });
 
+staticRoute.get("/uploadprofile", (req, res) => {
+  return res.render("upload");
+});
+
 staticRoute.get("/login", (req, res) => {
   return res.render("login");
 });

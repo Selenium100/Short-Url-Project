@@ -35,33 +35,30 @@
 
         <% if (locals.urls) { %>
 
-          <div style="margin-top: 80px">
-        <table style="width: 100%">
-          <tr>
-            <th>ShortURL</th>
-            <th>RedirectUrl</th>
-            <th>Total Clicks</th>
-          </tr>
-          <% urls.forEach(url => { %>
+        <div style="margin-top: 80px">
+          <table style="width: 100%">
+            <tr>
+              <th>ShortURL</th>
+              <th>RedirectUrl</th>
+              <th>Total Clicks</th>
+            </tr>
+            <% urls.forEach(url => { %>
             <tr>
               <td><%= url.shortid %></td>
               <td><%= url.redirectUrl %></td>
               <td><%= url.visitHistory.length %></td>
             </tr>
-            
-          <% }) %>
-          
-        </table>
-      </div>
+
+            <% }) %>
+          </table>
+        </div>
         <% } %>
       </form>
     </div>
 
-    
-
     <script>
-      let deletebutton = document.getElementById('delete');
-      deletebutton.addEventListener('click' , )
+      let deletebutton = document.getElementById("delete");
+      deletebutton.addEventListener("click");
     </script>
   </body>
 </html>

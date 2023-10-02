@@ -1,34 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SignUp</title>
 
     <style>
-        body {
-          font-family: Verdana, Geneva, Tahoma, sans-serif;
-        }
-        
-      </style>
-</head>
-<body>
+      body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      div.upload-container{
+        margin-top: 30px;
+      }
+    </style>
+  </head>
+  <body>
     <form action="/user" method="post">
-      
-        <h3>SignUp Page</h3>
-        <label>Please Enter your name</label>
-        <input type="text" name="name" id="name">
+      <h3>SignUp Page</h3>
+      <label>Please Enter your name</label>
+      <input type="text" name="name" id="name" />
 
-        <label>Please Enter your Email address</label>
-        <input type="text" name="email" id="email">
+      <label>Please Enter your Email address</label>
+      <input type="text" name="email" id="email" />
 
-        <label>Please Enter your password</label>
-        <input type="text" name="password" id="password">
+      <label>Please Enter your password</label>
+      <input type="text" name="password" id="password" />
 
-        <button type="submit">Submit</button>
+      <label>Please upload Profile Photo</label>
+      <input type="file" name="upload" id="upload">
 
-
-
+      <button type="submit">Submit</button>
     </form>
-</body>
+      
+      
+
+  </div>
+  </body>
 </html>
