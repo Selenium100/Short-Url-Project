@@ -65,4 +65,4 @@ app.get("/test/users", async (req, res) => {
   return res.render("home", { urls: allUrls });
 });
 
-app.listen(PORT, () => console.log(`Server is running on port ${PORT}`));
+app.listen(PORT, () => console.log(`Server is running in port ${PORT}`));
