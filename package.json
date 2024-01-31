@@ -18,5 +18,10 @@
     "nodemon": "^3.0.1",
     "shortid": "^2.2.16",
     "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^9.2.6",
+    "semantic-release": "^23.0.0"
   }
 }
